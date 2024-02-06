@@ -3,9 +3,11 @@ body {
   padding: 0;
   background-color: #050713;
   min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
-body > * {
+body>* {
   padding: 0 16px;
   max-width: 1216px;
   margin: 0 auto;
@@ -15,6 +17,7 @@ header {
   height: 128px;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 header img {
@@ -36,6 +39,7 @@ main {
 }
 
 footer {
+  height: 160px;
 }
 
 footer img {

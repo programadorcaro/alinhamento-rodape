@@ -3,9 +3,11 @@ body {
   padding: 0;
   background-color: #050713;
   min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
 
-body > * {
+body>* {
   padding: 0 16px;
   max-width: 1216px;
   margin: 0 auto;
@@ -33,10 +35,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1;
 }
 
-footer {
-}
+footer {}
 
 footer img {
   width: 100%;

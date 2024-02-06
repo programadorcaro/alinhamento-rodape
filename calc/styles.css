@@ -2,10 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: #050713;
-  min-height: 100dvh;
 }
 
-body > * {
+body>* {
   padding: 0 16px;
   max-width: 1216px;
   margin: 0 auto;
@@ -33,13 +32,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  min-height: calc(100dvh - 168px - 160px);
+  min-height: calc(100dvh - (128px + 154px))
 }
 
-footer {
-  height: 160px;
-}
+footer {}
 
 footer img {
   width: 100%;
